@@ -1,0 +1,149 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bendrieji */
+
+h1 {
+    font-size: 2em;
+
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: left;
+}
+
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+i {
+    font-style: normal;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    background-image: url(../IMG/laptop.jpg);
+    color: white;
+}
+
+header p {
+    margin-bottom: 10px;
+}
+
+header i {
+    font-size: 4em;
+
+}
+
+header a {
+    background-color: navy;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header-color {
+    background-color: rgba(255, 50, 0, 0.5)
+}
+
+.header-text {
+    padding: 30px 0 40px 0;
+}
+
+/* ASIDE */
+
+aside {
+    background-color: navy;
+    color: white;
+}
+
+aside ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+aside li {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 80px;
+}
+
+aside a {
+    color: rgb(255, 50, 0);
+}
+
+
+.aside-text {}
+
+.aside-icon {}
+
+
+
+
+/* MAIN */
+
+main {}
+
+main img {
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+main a {
+    background-color: rgb(255, 50, 0);
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+main p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article-image {
+    background-image: url(https://previews.123rf.com/images/suti/suti0905/suti090500017/4921528-love-written-with-keyboard-buttons-on-white-background.jpg)
+}
+
+
+
+
+/* FOOTER*/
+
+footer {
+    background-color: navy;
+    color: white;
+}
+
+footer .container section {
+    display: inline-block;
+    width: 30%;
+    padding: 20px 0;
+    margin-right: 19%;
+}
+
+footer h4 {
+    display: inline;
+    margin-left: 10px;
+}
+
+footer p {
+    margin-top: 20px;
+}

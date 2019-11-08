@@ -1,0 +1,58 @@
+/* Bendrieji */
+
+.green {
+    color: green;
+    font-family: sans-serif;
+}
+
+.red {
+    color: red;
+    font-family: sans-serif;
+}
+
+i {
+    color: #DEB887;
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+}
+
+header a {
+    color: #DEB887;
+}
+
+.firstbutton {
+    color: black;
+    background-color: #DEB887;
+    border-color: #DEB887;
+}
+
+.alert {
+    text-align: center;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #DEB887;
+}
+
+.nav-link {
+    color: #DEB887;
+}
+
+.lastcontainer {
+    border: 5px solid #DEB887;
+    margin-top: 35px;
+}
+
+.home {
+    border-bottom: 1px solid grey;
+}
+
+.about {
+    border-bottom: 1px solid grey;
+}
+
+.contact {
+    border-bottom: 1px solid grey;
+}

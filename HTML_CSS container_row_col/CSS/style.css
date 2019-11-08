@@ -1,0 +1,15 @@
+/* Bendrieji */
+
+header {
+    background-color: darkgrey;
+
+}
+
+main > div > div > div {
+    background-color: darkgrey;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: darkgrey;
+}

@@ -1,0 +1,109 @@
+/* Bendrieji */
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    background-image: url("../IMG/drops.jpg");
+    background-size: 100% 110%;
+
+}
+
+nav {
+    border-bottom: 1px solid grey;
+}
+
+nav a {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.serv_row {
+    padding: 30px;
+}
+
+.services {
+    text-align: center;
+
+}
+
+.recent_row {
+    padding: 30px;
+}
+
+
+.recent {
+    text-align: center;
+
+}
+
+.clients_row {
+    padding: 30px;
+}
+
+.clients {
+    text-align: center;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.card p {
+    padding: 25px 20px 60px;
+}
+
+.card a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    background-color: white;
+}
+
+.lp {
+    text-align: center;
+}
+
+.lp p {
+    color: red;
+}
+
+.img img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+
+.last i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.stretch {
+    width: 100%;
+
+}
+
+.before_footer {
+    color: white;
+    background-color: #C0C0C0;
+}
+
+
+footer {
+    background-color: black;
+    color: grey;
+}
+
+.copyright {
+    text-align: right;
+}
