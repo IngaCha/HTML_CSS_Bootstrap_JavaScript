@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>E-bankas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="container">
+
+        <h3>E-bankas</h3>
+
+        <form>
+            <div class="row">
+                <div class="col-4 form-group form-inline">
+                    <label for="exampleFormControlInput1">Veiksmas: </label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" min="0">
+                </div>
+                <div class="col-4 form-group">
+                    <select class="form-control" id="mySelect">
+                        <option value="papildyti">Papildyti</option>
+                        <option value="pasiimti">Pasiimti</option>
+                    </select>
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-12">
+                <p id="clicks" class="show_inline">Sąskaitoje yra: </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">Atlikti veiksmą</button>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">Rodyti visą išrašą</button>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+
+
+        <form class="form-inline">
+            <button type="submit" class="btn btn-primary mb-2">Filtruoti pagal sumą</button>
+            <!--            <div class="form-group mx-sm-3 mb-2">-->
+
+            <label for="inputsum" class="sr-only">Įveskite sumą</label>
+            <input type="text" class="form-control" id="inputsum" placeholder="Įveskite sumą">
+            <!--            </div>-->
+
+
+        </form>
+
+
+
+        <div class="row">
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">Rūšiuoti pagal sumą</button>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <p class="show_inline"> </p>
+                <ol id="ol"></ol>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
