@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guess_number</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="myNumber">Guess number from 1 to 10:</label>
+                    <input type="number" id="myNumber" class="form-control" min="1" max="10">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="row">
+            <p>Number of guesses:</p>
+        </div>
+        <div class="row">
+            <p id="clicks">0</p>
+        </div>
+
+    </main>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.container {
+    margin-top: 20px;
+}
+
+.plus {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+.show_inline {
+    display: inline-block;
+}

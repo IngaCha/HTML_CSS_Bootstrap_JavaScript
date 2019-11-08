@@ -1,0 +1,14 @@
+.container {
+    margin-top: 20px;
+    background-image: url(../IMG/paper.jpg);
+    width: 25%;
+    position: absolute;
+    left: 0px;
+}
+
+
+
+.result {
+    margin-top: 20px;
+    color: blue;
+}
