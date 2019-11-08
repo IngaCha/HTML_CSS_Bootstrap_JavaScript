@@ -1,0 +1,11 @@
+let friends = ["Mike", "Stacy", "Andy", "Rick"];
+
+// usual function:
+// friends.forEach(function(eachName, index){
+//                 console.log(index+1+ ". "+eachName);
+//                 });
+
+// arrow function + string template:
+console.log(friends.map((eachName, index) => `${index+1}. ${eachName}`));
+
+
